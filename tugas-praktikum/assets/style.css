@@ -88,9 +88,11 @@ section.main{
 footer{
  background: #280872;
  color: #fff;
- margin-top: 50px;
+ /* margin-top: 50px; */
  padding: 10px;
- text-align: center;
+ display: flex;
+ justify-content: center;
+ align-items: center;
 }
 /* Mengatur layout pada layar kecil (responsive) */
 @media (max-width: 700px){
